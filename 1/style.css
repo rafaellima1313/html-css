@@ -1,0 +1,138 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Stack+Sans+Notch:wght@200..700&display=swap');
+
+@font-face {
+  font-family: "google";
+  src: url("fonts/idroid.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font: 1.2em Arial, Helvetica, sans-serif;
+  text-align: center;
+  max-width: 1000px;
+  background-color: #44474D;
+  color: white;
+  margin: auto;
+}
+
+header {
+  border: 1px solid black;
+  padding: 18px;
+  background-color: #D5D0C4;
+  text-shadow: 2px 2px 5px black;
+}
+
+header > h1 {
+  margin-bottom: 14px;
+}
+
+header > p {
+  margin-bottom: 14px;
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  gap: 12px;
+}
+
+header a {
+  color: #005FCC;
+  text-decoration: none;
+  transition: 0.15s;
+}
+
+header a:hover {
+  border: 1px solid black;
+  padding: 5px 12px;
+  background-color: #005FCC;
+  color: white;
+  font-size: 1.2em;
+  border-radius: 12px 0;
+}
+
+main {
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+  padding: 60px 60px 0 60px;
+}
+
+main > article > h2{
+  margin-bottom: 30px;
+  font-family: "google", sans-serif;
+  background-color: #dfe1e6;
+  background-image: linear-gradient(to right, gray, rgb(46, 32, 32));
+}
+
+main > article > section > h3{
+  display: inline-block;
+  background-image: linear-gradient(to right, green, rgb(9, 77, 9));
+  padding: 0 10px;
+  margin: 30px 0;
+  font-family: "google", sans-serif;
+  background-color: blue;
+}
+
+main picture {
+  margin: 30px 0;
+  display: block;
+}
+
+.video-section {
+  background-color: #44474D;
+  padding: 60px;
+  margin: 20px 0;
+}
+
+iframe {
+  width: 100%;
+  max-width: 560px;
+  aspect-ratio: 16 / 9;
+  border: none;
+  display: block;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+
+footer {
+  padding: 10px;
+}
+
+.ultima-parte {
+  border: 1px solid black;
+  padding: 10px;
+  background-color: #005FCC;
+  color: white;
+  border-radius: 12px;
+}
+
+.ultima-parte > p {
+  margin: 40px;
+}
+
+.ultima-parte > ul {
+  list-style: none;
+  columns: 2;
+}
+
+.ultima-parte > ul > li::before {
+  content: "✔";
+  margin-right: 10px;
+}
+
+.last-phrase {
+  padding: 20px;
+}
