@@ -1,5 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-  background-color: lightgray;
-  background-image: url("https://sm.ign.com/ign_br/screenshot/default/1658076-1_f7hu.jpg");
-  background-size: 150px;
+  height: 100vh;
+  background-image: url("images/wallpaper002.jpg");
+  background-position: center;
+}
+
+main {
+  background-color: white;
+  width: 400px;
+  padding: 20px;
+  border: 1px solid blue;
+  margin: 50px auto;
 }
