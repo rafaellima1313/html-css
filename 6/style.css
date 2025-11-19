@@ -7,13 +7,21 @@
 }
 
 body {
+  display: flex;
   background-color: lightgreen;
   font-family: Arial, Helvetica, sans-serif;
+  flex-direction: column;
+  align-items: center;
+  height: 200vh;
+}
+
+h1 {
+  padding: 20px;
 }
 
 caption {
-  background-color: white;
-  border: 2px solid black;
+  text-align: center;
+  background-color: rgb(214, 206, 206);
   font-style: oblique;
   font-weight: bolder;
   font-size: 1.2em;
@@ -28,7 +36,11 @@ td, th {
 table {
   border-collapse: collapse;
   background-color: white;
-  margin-left: 20px;
+  width: 500px;
+}
+
+table > tbody > tr:nth-child(odd) {
+  background-color: rgb(154, 199, 178);
 }
 
 thead {
