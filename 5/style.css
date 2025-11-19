@@ -8,9 +8,14 @@
 
 td {
   border: 2px solid black;
-  padding: 4px;
+  padding: 8px;
+  
 }
 
 table {
   border-collapse: collapse;
+}
+
+body {
+  padding: 30px;
 }
