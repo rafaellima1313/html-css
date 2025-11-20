@@ -1,0 +1,27 @@
+td,
+th {
+  border: 1px solid black;
+  padding: 20px;
+}
+
+table {
+  border-collapse: collapse;
+  text-align: center;
+  position: absolute;
+}
+
+.aas2 {
+ background-color: yellow;
+}
+
+thead {
+  background-color: black;
+  color: white;
+  position: sticky;
+  top: -1px;
+}
+
+body {
+  height: 1000vh;
+}
+
