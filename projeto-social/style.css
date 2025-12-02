@@ -16,6 +16,7 @@ body,html {
 main {
   position: relative;
   height: 100vh;
+  margin: auto;
 }
 
 #celular {
@@ -32,9 +33,27 @@ main {
 }
 
 iframe {
-  position: absolute;
+  position: relative;
   top: 64px;
   left: 17.5px;
   width: 213.9px;
   height: 375.9px;
+}
+
+#icones > a > img {
+  width: 50px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  box-shadow: 1px 1px 5px black;
+}
+
+#icones {
+  text-align: right;
+  padding: 20px;
+}
+
+#icones > a > img:hover {
+  border: 2px solid gold;
+  box-shadow: 2px 2px 2px black; 
+  transform: translate(-5%, -5%);
 }
