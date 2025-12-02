@@ -1,5 +1,8 @@
-iframe {
-  width: 95vw;
-  height: 300px;
+body {
+  background-color: lightblue;
 }
 
+.deeppurple {
+  max-width: 800px;
+  margin: 0;
+}
