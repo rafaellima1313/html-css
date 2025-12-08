@@ -11,7 +11,7 @@ h1 {
 }
 
 body {
-  background-color: rgb(95, 130, 206);
+  background-color: rgb(179, 186, 202);
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -21,4 +21,10 @@ body {
 
 div {
   padding: 4px;
+}
+
+fieldset {
+  border: 1px solid black;
+  display: inline-block;
+  padding: 10px 80px 0 0;
 }
