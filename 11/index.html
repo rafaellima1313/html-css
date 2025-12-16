@@ -12,43 +12,15 @@
   <form action="cadastro.php" method="post" autocomplete="on">
 
     <div>
-      <label for="estados">Estado:</label>
-      <select name="estados" id="estados">
-
-        <option value="">-- Escolha --</option>
-        
-        <optgroup label="Sudeste">
-          <option value="SP">São Paulo</option>
-          <option value="RJ">Rio de Janeiro</option>
-          <option value="MG">Minas Gerais</option>
-          <option value="ES">Espirito Santo</option>
-        </optgroup>
-
-        <optgroup label="Sul">
-          <option value="SC">Santa Catarina</option>
-          <option value="PR">Paraná</option>
-          <option value="RS">Rio Grande do Sul</option>
-        </optgroup>
-      </select>
+      <label for="n1">Numero 1:</label>
+      <input type="number" name="n1" id="n1" min="1" max="50" required>
     </div>
 
     <div>
-      <label for="bandas">Bandas:</label>
-      <input type="text" name="bandas" id="bandas" list="lista">
-
-      <datalist id="lista">
-        <option>Iron Maiden</option>
-        <option>Kiss</option>
-        <option>Judas Priest</option>
-        <option>Manowar</option>
-      </datalist>
+      <label for="n2">Numero 2:</label>
+      <input type="number" name="n2" id="n2" min="1" max="50" required>
     </div>
-
-    <div>
-      <label for="mensagem">Mensagem:</label><br>
-      <textarea name="mensagem" id="mensagem" rows="10" cols="30"></textarea>
-    </div>
-
+    
     <div>
       <button type="submit">Enviar</button>
       <button type="reset">Limpar</button>
