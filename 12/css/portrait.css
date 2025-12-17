@@ -1,5 +1,6 @@
 /* Modo Retrato (Portrait) */
 
 body {
-  background-color: purple;
+  background-image: url("../images/cev-portrait.jpg");
+  background-position: left center;
 }

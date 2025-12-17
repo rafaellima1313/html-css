@@ -1,5 +1,6 @@
 /* Modo Landscape */
 
 body {
-  background-color: green;
+  background-image: url("../images/cev-landscape.jpg");
+  background-position: left bottom;
 }
