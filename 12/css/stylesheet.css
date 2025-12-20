@@ -27,6 +27,6 @@ h1 {
 
 @media screen and (orientation:portrait) {
   body {
-    background: rgba(12, 12, 225, 0.77) url(../images/cev-portrait.jpg) left center / contain no-repeat;
+    background: rgba(12, 12, 225, 0.77) url("../images/cev-portrait.jpg") left center / contain no-repeat;
   }
 }
