@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+/* Media Queries*/
+
+
+/*tablet*/
+@media (min-width: 768px) {
+  #phone,
+  #print,
+  #pc,
+  #tv {
+    display: none;
+}
+
+#tablet {
+  display: block;
+}
+
+body {
+  background-image: url("../images/back-tablet.jpg");
+}
+}
+
+/*pc*/
+@media (min-width: 999px) {
+  #phone,
+  #print,
+  #tablet,
+  #tv {
+    display: none;
+}
+
+#pc {
+  display: block;
+}
+
+body {
+  background-image: url("../images/back-pc.jpg");
+}
+}
+
+/*tv*/
+@media (min-width:1024px) {
+  #phone,
+  #print,
+  #tablet,
+  #pc {
+    display: none;
+}
+
+#tv {
+  display: block;
+}
+
+body {
+  background-image: url("../images/back-tv.jpg");
+}
+}
