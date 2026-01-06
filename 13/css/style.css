@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+:root {
+  --fundo: url("../images/back-phone.jpg");
+}
+
 /*Mobile First*/
 
 * {
@@ -11,9 +15,9 @@
 }
 
 body {
-  height: 100vh;
-  width: 100vw;
-  background: black url("../images/back-phone.jpg") no-repeat;
+  min-height: 100vh;
+  width: 100%;
+  background: black var(--fundo) no-repeat;
   background-size: cover;
   background-position: center center;
   text-align: center;

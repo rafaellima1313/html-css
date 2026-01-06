@@ -4,55 +4,62 @@
 
 
 /*tablet*/
-@media (min-width: 768px) {
-  #phone,
-  #print,
-  #pc,
-  #tv {
+@media screen and (min-width: 724px) {
+  #phone {
     display: none;
-}
+  }
 
-#tablet {
-  display: block;
-}
+  #tablet {
+    display: block;
+  }
 
-body {
-  background-image: url("../images/back-tablet.jpg");
-}
+  :root {
+    --fundo: url("../images/back-tablet.jpg");
+  }
 }
 
 /*pc*/
-@media (min-width: 999px) {
-  #phone,
-  #print,
-  #tablet,
-  #tv {
+@media screen and (min-width: 999px) {
+  #tablet {
     display: none;
+  }
+
+  #pc {
+    display: block;
+  }
+
+  :root{
+    --fundo: url("../images/back-pc.jpg");
+  }
 }
 
-#pc {
-  display: block;
-}
-
-body {
-  background-image: url("../images/back-pc.jpg");
-}
-}
-
-/*tv*/
-@media (min-width:1024px) {
-  #phone,
-  #print,
-  #tablet,
+@media screen and (min-width: 1200px) {
   #pc {
     display: none;
+  }
+
+  #tv {
+    display: block;
+  }
+
+  :root {
+    --fundo: url("../images/back-tv.jpg");
+  }
 }
 
-#tv {
-  display: block;
-}
+@media print {
+  #tv,
+  #tablet,
+  #phone,
+  #pc {
+    display: none;
+  }
 
-body {
-  background-image: url("../images/back-tv.jpg");
-}
+  #print {
+    display: block;
+  }
+
+  :root {
+    --fundo: url("../images/back-print.jpg")
+  }
 }
